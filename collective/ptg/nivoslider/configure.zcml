@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.ptg.nivoslider">
+
+    <browser:resourceDirectory
+        name="ptg.nivoslider"
+        directory="resources"
+        />
+
+    <adapter
+        for="collective.plonetruegallery.interfaces.IGallery"
+        provides=".INivosliderDisplaySettings"
+        factory=".NivosliderSettings" />
+
+    <browser:page
+        for="collective.plonetruegallery.interfaces.IGallery"
+        name="galleryview-nivoslider"
+        class=".NivosliderDisplayType"
+        template="nivoslider.pt"
+        permission="zope2.View" />
+
+    <utility
+        component=".NivosliderDisplayType"
+        provides="collective.plonetruegallery.interfaces.IDisplayType"
+        name="galleryview-nivoslider" />
+
+</configure>
