@@ -6,3 +6,7 @@ collective.ptg.nivoslider.mo
 .DS_Store
 *.pyc
 collective.ptg.nivoslider.egg-info/
+
+dist/collective.ptg.nivoslider-1.0.2.zip
+
+dist/collective.ptg.nivoslider-1.0.4.zip
