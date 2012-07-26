@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.4 (2012-07-26)
+1.0.5 (2012-07-26)
 ------------------
 
 - Fixed TV-theme (image was missing) [espen]
