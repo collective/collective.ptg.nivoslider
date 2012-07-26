@@ -1,0 +1,8 @@
+collective.ptg.nivoslider.egg-info/dependency_links.txt
+collective/.DS_Store
+ *.mo
+collective.ptg.nivoslider.mo
+.pyc
+.DS_Store
+*.pyc
+collective.ptg.nivoslider.egg-info/
