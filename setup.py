@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.5'
+version = '1.0.6'
 
 setup(name='collective.ptg.nivoslider',
       version=version,
-      description="",
+      description="Adds Nivoslider to collective.plonetruegallery",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
