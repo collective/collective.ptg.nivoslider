@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.6'
+version = '1.1'
 
 setup(name='collective.ptg.nivoslider',
       version=version,
@@ -15,8 +15,8 @@ setup(name='collective.ptg.nivoslider',
         "Programming Language :: Python",
         ],
       keywords='plone plonetruegallery nivo slider addon',
-      author='Nathan Van Gheem',
-      author_email='vangheem@gmail.com',
+      author='Espen Moe-Nilssen',
+      author_email='espen@medialog.no',
       url='https://github.com/collective/collective.ptg.nivoslider',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),

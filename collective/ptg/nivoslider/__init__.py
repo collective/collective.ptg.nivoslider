@@ -159,31 +159,42 @@ $(window).load(function() {
         # for backwards compatibility.
         base_url = '%s/++resource++ptg.nivoslider' % (
             self.portal_url)
+        imageheight = "auto"
+        imagewidth = "auto"
+        height = "auto"
+        width = "auto"
+        if self.settings.nivoslider_height != 0:   
+            imageheight = str(self.settings.nivoslider_height + 50) + "px"
+            height = str(self.settings.nivoslider_height) + "px"
+        if self.settings.nivoslider_width != 0:   
+            imagewidth = str(self.settings.nivoslider_width + 40) + "px"
+            width = str(self.settings.nivoslider_width) + "px"
+
         return u"""
         <style>
         .nivoSlider {
-        height: %(height)ipx !important;
-        width: %(width)ipx !important;
+        height: %(height)s !important;
+        width: %(width)s !important;
         }
         div.slider-wrapper  {
-        height: %(imageheight)ipx;
-        width: %(imagewidth)ipx;
+        height: %(imageheight)s;
+        width: %(imagewidth)s;
         }
         a.nivo-imageLink {
         height: 200px;
         }
         .ribbon {
-        height: %(height)ipx;
+        height: %(height)s;
         }
         </style>
 <link rel="stylesheet" type="text/css" href="%(base_url)s/css/nivoslider.css"/>
 <link rel="stylesheet" type="text/css"
     href="%(base_url)s/css/%(nivoslider_theme)s/style.css"/>
 """ % {
-        'height': self.settings.nivoslider_height,
-        'width': self.settings.nivoslider_width,
-        'imageheight': self.settings.nivoslider_height + 50,
-        'imagewidth': self.settings.nivoslider_width + 40,
+        'height': height,
+        'width': width,
+        'imageheight': imageheight,
+        'imagewidth': imagewidth,
         'nivoslider_theme': self.settings.nivoslider_theme,
         'base_url': base_url
        }

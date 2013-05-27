@@ -1,9 +1,19 @@
 Changelog
 =========
 
+1.0.5 (2013-05-27)
+------------------
+- Upgraded to nivoslider 3.2 which is responsive [espen]
+  Use "0" as width / height setting to enable responsive width / height
+
+
 1.0.5 (2012-07-26)
 ------------------
-- added description in setup.py
+- added description in setup.py [espen]
+
+1.0.5 (2012-07-26)
+------------------
+- added description in setup.py [espen]
 
 1.0.5 (2012-07-26)
 ------------------
@@ -11,10 +21,10 @@ Changelog
 
 1.0.3 (2012-07-24)
 ------------------
-add translations
+add translations [espen]
 
 
 1.0 (2012-07-04)
 ----------------
 
-- Initial release
+- Initial release [espen]
