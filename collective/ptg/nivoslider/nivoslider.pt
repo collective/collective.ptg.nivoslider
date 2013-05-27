@@ -4,7 +4,7 @@
     <div class="ribbon"></div>
     <div id="slider" class="nivoSlider">    
     <tal:images tal:repeat="img view/batch">
-            <a href="" tal:attributes="href img/link">
+         
                 <img title="Locomotives Roundhouse"
                      alt=""
                      src=""
@@ -12,7 +12,7 @@
                                      alt img/description;
                                      src img/image_url;
                                      rel img/thumb_url;"/>
-            </a>
+    
            
            
     </tal:images>     

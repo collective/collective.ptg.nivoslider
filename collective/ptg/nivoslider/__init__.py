@@ -142,7 +142,6 @@ $(window).load(function() {
 </script>
 """ % {
          'portal_url': self.portal_url,
-         'height': self.height,
          'effect': self.settings.nivoslider_effect,
          'slices': self.settings.nivoslider_slices,
          'boxcols': self.settings.nivoslider_boxcols,
