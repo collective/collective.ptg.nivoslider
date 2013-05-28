@@ -36,6 +36,12 @@ class INivosliderDisplaySettings(IBaseSettings):
                 _(u"label_nivoslider_theme6", default=u"Bendit Theme")),
             SimpleTerm("tv", "tv",
                 _(u"label_nivoslider_theme7", default=u"TV Theme")),
+            SimpleTerm("bar", "bar",
+                _(u"label_nivoslider_theme9", default=u"Bar Theme")),
+            SimpleTerm("dark", "dark",
+                _(u"label_nivoslider_theme10", default=u"Dark Theme")),
+            SimpleTerm("light", "light",
+                _(u"label_nivoslider_theme11", default=u"Light Theme")),
             SimpleTerm("thumbnail", "thumbnail",
                 _(u"label_nivoslider_theme8", default=u"Thumbnail Theme")
             )
@@ -159,9 +165,9 @@ $(window).load(function() {
         base_url = '%s/++resource++ptg.nivoslider' % (
             self.portal_url)
         imageheight = "auto"
-        imagewidth = "auto"
+        imagewidth = "100%"
         height = "auto"
-        width = "auto"
+        width = "85%"
         if self.settings.nivoslider_height != 0:   
             imageheight = str(self.settings.nivoslider_height + 50) + "px"
             height = str(self.settings.nivoslider_height) + "px"
@@ -172,15 +178,15 @@ $(window).load(function() {
         return u"""
         <style>
         .nivoSlider {
-        height: %(height)s !important;
-        width: %(width)s !important;
+        height: %(height)s;
+        width: %(width)s;
         }
         div.slider-wrapper  {
         height: %(imageheight)s;
         width: %(imagewidth)s;
         }
         a.nivo-imageLink {
-        height: 200px;
+        height: 1200px;
         }
         .ribbon {
         height: %(height)s;
