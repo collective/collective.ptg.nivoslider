@@ -103,7 +103,7 @@ class INivosliderDisplaySettings(IBaseSettings):
         default=False)
     nivoslider_slices = schema.Int(
         title=_(u"label_nivoslider_slices",
-            default=u"Nuber of slices, for slice animations"),
+            default=u"Number of slices, for slice animations"),
         default=15)
     nivoslider_boxcols = schema.Int(
         title=_(u"label_nivoslider_boxcols",
