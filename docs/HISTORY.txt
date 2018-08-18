@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.6 (unreleased)
+------------------
+
+- Fixed Uncaught TypeError: g.find(...).live is not a function [macagua]
+
 1.0.5 (2013-05-27)
 ------------------
 - Upgraded to nivoslider 3.2 which is responsive [espen]
