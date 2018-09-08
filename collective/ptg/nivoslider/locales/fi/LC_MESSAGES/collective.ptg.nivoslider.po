@@ -1,10 +1,10 @@
 # --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# Finnish translations for collective.plonetruegallery package.
+# Finnish translations for collective.ptg.nivoslider package.
 # Ilja Everilä <ilja.everila@twinapex.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: collective.plonetruegallery 0.7rc1-py2.4.egg\n"
-"POT-Creation-Date: 2012-07-10 13:24+0000\n"
+"Project-Id-Version: collective.ptg.nivoslider 0.7rc1-py2.4.egg\n"
+"POT-Creation-Date: 2018-08-18 14:53+0000\n"
 "PO-Revision-Date: 2009-08-28 16:49+0300\n"
 "Last-Translator: Ilja Everilä <ilja.everila@twinapex.com>\n"
 "Language-Team: Finnish\n"
@@ -15,110 +15,110 @@ msgstr ""
 "Language-Code: fi\n"
 "Language-Name: Finnish\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.plonetruegallery\n"
+"Domain: collective.ptg.nivoslider\n"
 
 #. Default: "Number of columns for box animations"
-#: ./__init__.py:103
+#: ./__init__.py:109
 msgid "label_nivoslider_boxcols"
 msgstr ""
 
 #. Default: "Number of rows for box animations"
-#: ./__init__.py:107
+#: ./__init__.py:113
 msgid "label_nivoslider_boxrows"
 msgstr ""
 
 #. Default: "Only show Next & Prev on hover"
-#: ./__init__.py:91
+#: ./__init__.py:97
 msgid "label_nivoslider_directionnavhide"
 msgstr ""
 
 #. Default: "Nivoslider"
-#: ./__init__.py:116
+#: ./__init__.py:122
 msgid "label_nivoslider_display_type"
 msgstr ""
 
 #. Default: "Transition Effect"
-#: ./__init__.py:44
+#: ./__init__.py:50
 msgid "label_nivoslider_effect"
 msgstr ""
 
 #. Default: "Fold"
-#: ./__init__.py:48
+#: ./__init__.py:54
 msgid "label_nivoslider_effect1"
 msgstr ""
 
 #. Default: "Box Rain"
-#: ./__init__.py:68
+#: ./__init__.py:74
 msgid "label_nivoslider_effect10"
 msgstr ""
 
 #. Default: "Box Rain Reverse"
-#: ./__init__.py:70
+#: ./__init__.py:76
 msgid "label_nivoslider_effect11"
 msgstr ""
 
 #. Default: "Box Random"
-#: ./__init__.py:72
+#: ./__init__.py:78
 msgid "label_nivoslider_effect12"
 msgstr ""
 
 #. Default: "Box Rain Grow"
-#: ./__init__.py:74
+#: ./__init__.py:80
 msgid "label_nivoslider_effect13"
 msgstr ""
 
 #. Default: "box Rain Grow Reverse"
-#: ./__init__.py:76
+#: ./__init__.py:82
 msgid "label_nivoslider_effect14"
 msgstr ""
 
 #. Default: "Random"
-#: ./__init__.py:79
+#: ./__init__.py:85
 msgid "label_nivoslider_effect15"
 msgstr ""
 
 #. Default: "Slice Down Left"
-#: ./__init__.py:54
+#: ./__init__.py:60
 msgid "label_nivoslider_effect16"
 msgstr ""
 
 #. Default: "Fade"
-#: ./__init__.py:50
+#: ./__init__.py:56
 msgid "label_nivoslider_effect2"
 msgstr ""
 
 #. Default: "Slice Down"
-#: ./__init__.py:52
+#: ./__init__.py:58
 msgid "label_nivoslider_effect3"
 msgstr ""
 
 #. Default: "Slice Up"
-#: ./__init__.py:56
+#: ./__init__.py:62
 msgid "label_nivoslider_effect4"
 msgstr ""
 
 #. Default: "Slice Up Left"
-#: ./__init__.py:58
+#: ./__init__.py:64
 msgid "label_nivoslider_effect5"
 msgstr ""
 
 #. Default: "Slice Up Down"
-#: ./__init__.py:60
+#: ./__init__.py:66
 msgid "label_nivoslider_effect6"
 msgstr ""
 
 #. Default: "Slice Up Down Left"
-#: ./__init__.py:62
+#: ./__init__.py:68
 msgid "label_nivoslider_effect7"
 msgstr ""
 
 #. Default: "Slide In Right"
-#: ./__init__.py:64
+#: ./__init__.py:70
 msgid "label_nivoslider_effect8"
 msgstr ""
 
 #. Default: "Slide In Left"
-#: ./__init__.py:66
+#: ./__init__.py:72
 msgid "label_nivoslider_effect9"
 msgstr ""
 
@@ -128,28 +128,38 @@ msgid "label_nivoslider_height"
 msgstr ""
 
 #. Default: "Stop animation while hovering?"
-#: ./__init__.py:95
+#: ./__init__.py:101
 msgid "label_nivoslider_pauseonhover"
 msgstr ""
 
 #. Default: "Next & Prev navigation??"
-#: ./__init__.py:87
+#: ./__init__.py:93
 msgid "label_nivoslider_r_directionnar"
 msgstr ""
 
 #. Default: "Start on random image?"
-#: ./__init__.py:83
+#: ./__init__.py:89
 msgid "label_nivoslider_randomstart"
 msgstr ""
 
-#. Default: "Nuber of slices, for slice animations"
-#: ./__init__.py:99
+#. Default: "Number of slices, for slice animations"
+#: ./__init__.py:105
 msgid "label_nivoslider_slices"
 msgstr ""
 
 #. Default: "Default Theme"
 #: ./__init__.py:26
 msgid "label_nivoslider_theme1"
+msgstr ""
+
+#. Default: "Dark Theme"
+#: ./__init__.py:42
+msgid "label_nivoslider_theme10"
+msgstr ""
+
+#. Default: "Light Theme"
+#: ./__init__.py:44
+msgid "label_nivoslider_theme11"
 msgstr ""
 
 #. Default: "Orman Theme"
@@ -183,8 +193,13 @@ msgid "label_nivoslider_theme7"
 msgstr ""
 
 #. Default: "Thumbnail Theme"
-#: ./__init__.py:40
+#: ./__init__.py:46
 msgid "label_nivoslider_theme8"
+msgstr ""
+
+#. Default: "Bar Theme"
+#: ./__init__.py:40
+msgid "label_nivoslider_theme9"
 msgstr ""
 
 #. Default: "Width of the gallery in pixels"
@@ -196,4 +211,3 @@ msgstr ""
 #: ./__init__.py:22
 msgid "nivoslider_theme"
 msgstr ""
-
