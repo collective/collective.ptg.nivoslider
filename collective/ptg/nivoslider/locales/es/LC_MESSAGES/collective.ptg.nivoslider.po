@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collective.ptg.nivoslider\n"
 "POT-Creation-Date: 2018-08-18 14:53+0000\n"
-"PO-Revision-Date: 2018-08-18 15:56-0400\n"
+"PO-Revision-Date: 2018-09-14 15:56-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish Team\n"
 "Language: es\n"
@@ -49,7 +49,7 @@ msgstr "Efecto Transición"
 #. Default: "Fold"
 #: ./__init__.py:54
 msgid "label_nivoslider_effect1"
-msgstr ""
+msgstr "Plegar"
 
 #. Default: "Box Rain"
 #: ./__init__.py:74
@@ -89,7 +89,7 @@ msgstr ""
 #. Default: "Fade"
 #: ./__init__.py:56
 msgid "label_nivoslider_effect2"
-msgstr ""
+msgstr "Descolorar"
 
 #. Default: "Slice Down"
 #: ./__init__.py:58
@@ -129,12 +129,13 @@ msgstr ""
 #. Default: "Height of the gallery in pixels"
 #: ./__init__.py:18
 msgid "label_nivoslider_height"
-msgstr ""
+msgstr "Alto de la galería en píxeles"
 
 #. Default: "Stop animation while hovering?"
 #: ./__init__.py:101
+#, fuzzy
 msgid "label_nivoslider_pauseonhover"
-msgstr ""
+msgstr "¿Detener animación mientras el cursor del ratón este encima?"
 
 #. Default: "Next & Prev navigation??"
 #: ./__init__.py:93
@@ -148,8 +149,9 @@ msgstr "¿Comience con una imagen aleatoria?"
 
 #. Default: "Number of slices, for slice animations"
 #: ./__init__.py:105
+#, fuzzy
 msgid "label_nivoslider_slices"
-msgstr ""
+msgstr "Número de diapositivas, para animaciones de la diapositiva"
 
 #. Default: "Default Theme"
 #: ./__init__.py:26
@@ -209,7 +211,7 @@ msgstr "Tema Bar"
 #. Default: "Width of the gallery in pixels"
 #: ./__init__.py:14
 msgid "label_nivoslider_width"
-msgstr "Ancho de la galería en pixeles"
+msgstr "Ancho de la galería en píxeles"
 
 #. Default: "Nivoslider Theme"
 #: ./__init__.py:22
